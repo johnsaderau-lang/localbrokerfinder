@@ -1109,27 +1109,14 @@ export default function App() {
           </div>
         )}
 
-        <footer className="footer">
-          <div className="flogo">
-            <div style={{
-              background:"#2D2D2D",
-              borderRadius:"8px",
-              padding:"5px 8px",
-              lineHeight:1.1,
-              letterSpacing:"-0.3px",
-              fontFamily:"var(--font-head)",
-              fontWeight:900,
-              fontSize:"10px",
-              color:"white",
-              flexShrink:0,
-            }}>
-              <div>Loc<span style={{color:"#00897B"}}>A</span>l</div>
-              <div style={{color:"#00897B"}}>broke</div>
-              <div><span style={{color:"#00897B"}}>R</span>find</div>
-              <div>er.<span style={{color:"#00897B"}}>Au</span></div>
-            </div>
+        <footer className="footer" style={{background:"#023047",color:"rgba(255,255,255,0.85)",padding:"2.2rem 1.5rem 1.2rem",fontSize:"0.68rem",lineHeight:1.55}}>
+          <div style={{maxWidth:"1100px",margin:"0 auto",textAlign:"center"}}>
+            <div style={{color:"#fff",fontWeight:700,fontSize:"0.8rem",marginBottom:"0.5rem"}}>localbrokerfinder.com.au</div>
+            <div style={{color:"rgba(255,255,255,0.75)",maxWidth:"780px",margin:"0 auto 0.8rem"}}>Operated by The Finance Firm Pty Ltd (ABN 31 670 677 513, ACN 670 677 513), Australian Credit Representative #561872 of Australian Finance Group Ltd, Australian Credit Licence 389087. Information on this website is general in nature and does not take into account your personal objectives, financial situation, or needs. It is not financial or credit advice. Brokers we refer you to are independent and licensed.</div>
+            <div style={{color:"rgba(255,255,255,0.7)",marginBottom:"0.35rem"}}>Member of MFAA (#684768) &middot; AFCA member #87710</div>
+            <div style={{color:"rgba(255,255,255,0.7)",marginBottom:"0.8rem"}}>1/299 Elizabeth Street, Sydney NSW 2000</div>
+            <div style={{color:"rgba(255,255,255,0.6)",fontSize:"0.62rem",borderTop:"1px solid rgba(255,255,255,0.15)",paddingTop:"0.8rem",marginTop:"0.8rem"}}>&copy; 2026 The Finance Firm Pty Ltd. <span style={{color:"rgba(255,255,255,0.85)",margin:"0 0.3rem"}}>Privacy Policy</span> &middot; <span style={{color:"rgba(255,255,255,0.85)",margin:"0 0.3rem"}}>Terms of Use</span></div>
           </div>
-          <div className="flegal">© 2026 LocalBrokerFinder · Credit licence info applies · Privacy · Terms</div>
         </footer>
       </div>
     </>
